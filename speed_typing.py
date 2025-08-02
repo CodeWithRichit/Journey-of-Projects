@@ -82,7 +82,7 @@ while True:
 
         avg_time = round(total_time / n, 2)
         print(f"🕐 Average time per sentence: {avg_time} seconds")
-        print('You got',count,'on',n,)
+        print('You got',count,'on',n)
         if count==n:
           print('Good Job!🔥') 
         elif count<n:
